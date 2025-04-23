@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Services - Amir Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar sidebarGO">
+        <div class="hame" onclick="openSidebar()">
+            <img src="cross.jpg" alt="hamburger" width="30">
+        </div>
+        <div class="amir">
+            <img src="ami.jpeg" alt="Amir" width="40">
+        </div>
+        <h2>Amir</h2>
+        <nav>
+          <ul>
+            <li><a href="/" class="sidebar-link"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="/MyIntro.html" class="sidebar-link"><i class="fas fa-user"></i> My Intro</a></li>
+            <li><a href="/Services.html" class="sidebar-link"><i class="fas fa-cogs"></i> Services</a></li>
+            <li><a href="/Blogs.html" class="sidebar-link"><i class="fas fa-blog"></i> Blogs</a></li>  
+            <li><a href="/Cv.html" class="sidebar-link"><i class="fas fa-file-alt"></i> CV</a></li>  
+            <li><a href="/contact.html" class="sidebar-link"><i class="fas fa-envelope"></i> Contact</a></li>
+          </ul>
+        </nav>
+        <div class="close-btn" onclick="closeSidebar()">
+          <i class="fas fa-times"></i>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main">
+      <div class="services-container">
+        <h2>How I Can Help You Succeed</h2>
+
+        <div class="service-card">
+          <h3><i class="fas fa-code"></i> Web Development</h3>
+          <p>Build a powerful online presence with a custom website tailored to your business. I offer full-stack web development services, ensuring your website is responsive, fast, and optimized for conversion. Whether it's a sleek portfolio, an e-commerce store, or a dynamic business site, I create websites that are engaging and user-friendly.</p>
+        </div>
+
+        <div class="service-card">
+          <h3><i class="fas fa-mobile-alt"></i> Mobile App Development</h3>
+          <p>Reach your customers anywhere with a mobile app that’s both intuitive and high-performing. I specialize in building cross-platform mobile applications for Android and iOS, ensuring seamless user experiences and smooth functionality across devices. Let's take your ideas to the next level with a mobile app that adds value to your business and your users.</p>
+        </div>
+
+        <div class="service-card">
+          <h3><i class="fas fa-shield-alt"></i> Cybersecurity Solutions</h3>
+          <p>Your security is my priority. I offer comprehensive cybersecurity solutions, including security audits, penetration testing, and vulnerability assessments. Whether you’re a small business or a large enterprise, I will help safeguard your digital assets from cyber threats, ensuring that your systems and sensitive data are protected against evolving risks.</p>
+        </div>
+
+        <div class="service-card">
+          <h3><i class="fas fa-chalkboard-teacher"></i> Consultation & Training</h3>
+          <p>Stay ahead in the fast-paced tech world with expert consultation and training. I provide one-on-one and team-based tech consultations, along with customized training sessions to upskill your workforce. From software development best practices to cybersecurity strategies, I equip you with the knowledge and tools you need to succeed in today’s tech-driven landscape.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
