@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Amir Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amir Khan - My Intro</title>
   <link rel="stylesheet" href="style.css" />
-  <!-- Font Awesome for icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
+
 <body>
   <div class="container">
     <!-- Sidebar -->
@@ -16,47 +17,57 @@
       <nav>
         <ul>
           <li><a href="/" class="sidebar-link"><i class="fas fa-home"></i> Home</a></li>
-          <li><a href="/MyIntro.html" class="sidebar-link"><i class="fas fa-user"></i> My Intro</a></li>
+          <li><a href="/MyIntro.html" class="sidebar-link active"><i class="fas fa-user"></i> My Intro</a></li>
           <li><a href="/Services.html" class="sidebar-link"><i class="fas fa-cogs"></i> Services</a></li>
-          <li><a href="/Blogs.html" class="sidebar-link"><i class="fas fa-blog"></i> Blogs</a></li>  
-          <!-- ✅ Corrected CV Icon -->
-          <li><a href="/Cv.html" class="sidebar-link"><i class="fas fa-file-alt"></i> CV</a></li>  
-          <li><a href="/contect.html" class="sidebar-link"><i class="fas fa-envelope"></i> Contact</a></li>
+          <li><a href="/Blogs.html" class="sidebar-link"><i class="fas fa-blog"></i> Blogs</a></li>
+          <li><a href="/Cv.html" class="sidebar-link"><i class="fas fa-file-alt"></i> CV</a></li>
         </ul>
       </nav>
     </div>
 
     <!-- Main Content -->
     <div class="main">
-      <div class="contactform">
-        <h2>Contact Me</h2>
-        <form action="#" method="POST" class="contact-form">
-          <div class="form-group">
-            <label for="name">Full Name</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required />
-          </div>
+      <div class="intro-container">
+        <div class="contact-btn-container">
+          <a href="mailto:amir@gmail.com" class="contact-btn"><i class="fas fa-envelope"></i> Contact Me</a>
+        </div>
+        <h2><i class="fas fa-user-circle"></i> About Me</h2>
+        <p>Hello! I'm <strong>Amir Khan</strong>, a passionate and curious tech enthusiast from Auriaya, India.
+          I'm currently pursuing a Bachelor's in Computer Science from Lamrin Tech Skills University, and I’m
+          driven by my love for learning, building, and breaking things — especially in the fields of web
+          development and cybersecurity.</p>
 
-          <div class="form-group">
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required />
-          </div>
+        <p>Ever since I first wrote a few lines of HTML, I knew tech was my thing. I’ve been diving deeper ever
+          since — whether it's developing clean, responsive websites, exploring ethical hacking through Kali
+          Linux, or scripting automation tools using Python and Bash.</p>
 
-          <div class="form-group">
-            <label for="Phone">Phone Number </label>
-            <input type="tel" id="Phone" name="Phone" placeholder="Enter your phone number" required />
-          </div>
+        <p>My journey isn't just about code — it's about solving problems, pushing limits, and constantly
+          improving. Whether I'm freelancing on web projects or sharpening my skills in penetration testing
+          labs, I bring energy, curiosity, and a commitment to quality in everything I do.</p>
 
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Write your message" rows="5" required></textarea>
-          </div>
+        <h3><i class="fas fa-heart"></i> What I’m Passionate About:</h3>
+        <ul>
+          <li>Cybersecurity & Ethical Hacking</li>
+          <li>Open Source Projects</li>
+          <li>Learning new tech & tools</li>
+          <li>Helping others grow in tech</li>
+        </ul>
 
-          <div class="form-group">
-            <button type="submit">Send Message</button>
-          </div>
-        </form>
+        <h3><i class="fas fa-rocket"></i> Goals</h3>
+        <p>In the near future, I aim to become a skilled cybersecurity professional, contribute to open-source
+          communities, and maybe even launch a startup that solves real-world security problems.</p>
+
+        <p>Thanks for stopping by — feel free to check out my <a href="/Cv.html">CV</a> or <a href="/Blogs.html">read my
+            blog</a> to know more!</p>
+        <div class="contact-btn-container">
+          <a href="mailto:amir@gmail.com" class="contact-btn"><i class="fas fa-envelope"></i> Contact Me</a>
+        </div>
       </div>
     </div>
   </div>
+
+  <!-- Contact Me Button (Fixed at right side and vertically centered) -->
+
 </body>
+
 </html>
